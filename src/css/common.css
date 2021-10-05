@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+.timer {
+  display: flex;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-size: 24px;
+}
+.field:not(:last-child) {
+  margin-right: 15px;
+}
+.flatpickr-input{
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  border: 1px solid black;
+}
+.start,
+.stop {
+  font-size: 1.2rem;
+  padding-top: 12px;
+  padding-right: 30px;
+  padding-bottom: 12px;
+  padding-left: 30px;
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+  border: black solid 1px;
+  background-color: transparent;
+}
